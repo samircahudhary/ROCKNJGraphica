@@ -1,1 +1,133 @@
 # ROCKNJGraphica
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    color: #333;
+}
+
+
+header {
+    background-color: #040202;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+#map{height: 300px;
+width: 500px;}
+
+#bold{font-size: 30px;}
+#img01{height: 300px;}
+header img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#tagline {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+
+section {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    background-color: #ffffffc2;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #003333;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+
+.primary-btn {
+    background-color: #006666;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: #004d4d;
+    transform: scale(1.05);
+}
+
+#Map {
+    width: 100%;
+    height: 300px;
+    background-color: #e3e3e3;
+    margin-bottom: 30px;
+}
+
+#boxinline {
+    display: flex;
+    justify-content: space-around;
+}
+
+#box1, #box2, #box3 {
+    flex-basis: 30%;
+    margin: 10px;
+}
+
+#box1 img, #box2 img, #box3 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+form {
+    margin: 20px 0;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 300px;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+
+footer {
+    background-color: #004d4d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+
+#user-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#user-list ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
