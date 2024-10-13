@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotech - Find Outdoor Sports Grounds</title>
+    <link rel="stylesheet" href="dubey.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
+</head>
+
+
+    
+    <header>  
+        
+        <h1 img>  <img src="spotech-13-10-2024 (2).png" id="img01"> </h1>
+        <p id="bold">Your gateway to open and local sports grounds</p>
+    </header>
+
+    
+    
+
+    
+    <section id="free-grounds">
+        <h2>Find Free Open Grounds Near You</h2>
+        <p>Click below to allow access to your location and find nearby open grounds.</p>
+        <button onclick="getLocation()">Find Grounds</button>
+        <div id="Map"><img src="google-maps-satellite - Copy.png" alt=""></div>
+        <div id="Ground-details"></div>
+      <div id="boxinline">
+        <div   id="box1"> <img src="sp1.jpg" height="300px" alt=""></div> 
+        <div id="box2"><img src="sp2.jpg" height="260px" alt=""></div>
+        <div id="box3"><img src="sp3.jpg" height="300px" alt=""></div>
+        
+    </div>
+    
+    </section>
+    
+    <body> 
+    
+    <section id="Paid-turfs">
+        <h2>Book Paid Turfs & Indoor Courts</h2>
+        <p>Find and book high-quality turfs and courts for your sports events.</p>
+        <div id="Paid-list">
+            
+
+            <ul>
+                <li>Indoor Court A - 200rs/hr <button>Book Now</button></li> <hr>
+
+                <li>Indoor Court B - 250rs/hr <button>Book Now</button></li><hr>
+
+                <li>Discount on Hockey Turf - rs150/hr <button>Book Now</button></li><hr>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section id="live-chat">
+        <h2>Join a Game Room</h2>
+        <p>Connect with other players in your area and set up a match.</p>
+        <form>
+            <label for="city">Enter your city:</label>
+            <input type="text" id="city" name="city">
+            
+            <label for="region">Enter your region/locality:</label>
+            <input type="text" id="region" name="region">
+            
+            <label for="sport">Select your sport:</label>
+            <select id="sport" name="sport">
+                <option value="football">Football</option>
+                <option value="cricket">Cricket</option>
+                <option value="hockey">Hockey</option>
+                <option value="basketball">Basketball</option>
+            </select>
+            
+            <button type="submit">Join Room</button>
+        </form>
+
+        
+        <div id="user-list">
+            <h3>Active Users</h3>
+            <ul>
+                <li>John from City A, playing football</li>
+                <li>Maria from City B, playing hockey</li>
+                <li>Kevin from City C, playing cricket</li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Spotech. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
