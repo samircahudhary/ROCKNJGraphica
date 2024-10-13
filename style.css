@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+#bold{font-weight:bolder;}
+#bold:hover{color: gray;}
+
+#imgsport{height: 10px;}
+
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#boxinline{justify-content: space-evenly;
+    text-align: end;
+    display: flex;
+}
+#box1{width: 400px;
+height: 400px;
+background-color: #333;}
+
+#box2{width: 400px;
+    height: 400px;
+    background-color: #333;}
+
+
+#free-grounds {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+#free-grounds button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+ul:hover{color: #333;}
+
+#map {
+    width: 100%;
+    height: 400px;
+    margin-top: 1rem;
+}
+
+#ground-details {
+    margin-top: 1rem;
+}
+
+
+#paid-turfs {
+    padding: 2rem;
+    background-color: #fafafa;
+}
+
+#paid-turfs ul {
+    list-style: none;
+    padding: 0;
+}
+
+#paid-turfs ul li {
+    padding: 1rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#live-chat {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+#live-chat form {
+    display: flex;
+    flex-direction: column;
+}
+
+#live-chat form input, #live-chat form select, #live-chat form button {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#user-list {
+    margin-top: 2rem;
+}
+
+#user-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#user-list ul li {
+    padding: 0.75rem;
+    background-color: #fafafa;
+    margin-bottom: 0.5rem;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
